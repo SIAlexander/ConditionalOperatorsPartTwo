@@ -45,7 +45,7 @@ public class Main {
         if (deliveryDistance < 20){
             deliveryTime = 1;
             System.out.println("Потребуется дней: " + deliveryTime);
-        }else if(deliveryDistance >= 20 && deliveryDistance < 60) {
+        }else if(deliveryDistance >= 20 && deliveryDistance < 60){
             deliveryTime = 2;
             System.out.println("Потребуется дней: " + deliveryTime);
         }else if(deliveryDistance >= 60 && deliveryDistance < 100){
